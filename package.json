@@ -1,17 +1,32 @@
 {
   "name": "project-structure-validate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Describe a project's folder and file structure in a .project-structure.json file and validate that the project follows it",
   "main": "build/index.js",
   "scripts": {
     "build": "node -e \"require('fs').rmSync('build',{recursive:true,force:true})\" && tsc -p tsconfig.build.json",
     "test": "tsc --noEmit && jest",
     "project-structure-validate": "npm run build && node build/cli.js",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "npm test && npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "project-structure",
+    "folder-structure",
+    "file-structure",
+    "lint",
+    "validate",
+    "cli"
+  ],
+  "author": "Alessandro Massarotti Jr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alessandro-Massarotti-Jr/project-structure-validate.git"
+  },
+  "homepage": "https://github.com/Alessandro-Massarotti-Jr/project-structure-validate#readme",
+  "bugs": {
+    "url": "https://github.com/Alessandro-Massarotti-Jr/project-structure-validate/issues"
+  },
   "type": "commonjs",
   "devDependencies": {
     "@jest/globals": "^30.5.2",

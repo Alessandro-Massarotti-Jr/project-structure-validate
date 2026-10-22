@@ -3,8 +3,8 @@
 <p>
   <img src="https://img.shields.io/badge/made%20by-Alessandro%20Massarotti%20Jr-cf7113?style=flat-square">
   <img src="https://img.shields.io/badge/Node.js-24-cf7113?style=flat-square">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alessandro-Massarotti-Jr/project-structure-validatey?color=cf7113&style=flat-square">
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Alessandro-Massarotti-Jr/project-structure-validatey?color=cf7113&style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alessandro-Massarotti-Jr/project-structure-validate?color=cf7113&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Alessandro-Massarotti-Jr/project-structure-validate?color=cf7113&style=flat-square">
 </p>
 
 
